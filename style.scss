@@ -1,0 +1,46 @@
+.container{
+    .row{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: burlywood;
+        border-radius: 5px;
+
+        .addBlock {
+            background-color: rgb(113, 113, 128);
+            padding: 20px;
+            border-radius: 5px;
+            
+            input{
+                padding: 5px;
+            }
+            button {
+                padding: 7px;
+                background-color: cornflowerblue;
+                border: none;
+            }
+        }
+        ul{
+            padding: 0;
+        }
+        li{
+            list-style-type: none;
+            background-color: beige;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            input{
+                display: none;
+            }
+        }
+        .editMode {
+            input{
+                display: block;
+            }
+            label{
+                display: none;
+            }
+        }
+    
+    }
+}
