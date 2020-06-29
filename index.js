@@ -64,4 +64,5 @@ let bindTaskEvents = (listItem) => {
 
     editButton.onclick = editTask;
     delButton.onclick = deleteTask;
+    //first
 }
