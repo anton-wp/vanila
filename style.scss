@@ -1,46 +1,84 @@
-.container{
-    .row{
+.container {
+    .row {
         display: flex;
         flex-direction: column;
         padding: 20px;
         background-color: burlywood;
         border-radius: 5px;
 
+        input {
+            padding: 5px;
+            background-color: white;
+            border: 1px solid;
+            border-radius: 3px;
+            border-color: grey;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+        button {
+            border: none;
+            padding: 7px;
+            border-radius: 5px;
+            color: white;
+            letter-spacing: 0.5px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
         .addBlock {
             background-color: rgb(113, 113, 128);
             padding: 20px;
             border-radius: 5px;
-            
-            input{
+
+            input {
                 padding: 5px;
             }
+
             button {
-                padding: 7px;
                 background-color: cornflowerblue;
-                border: none;
             }
         }
-        ul{
+
+        ul {
             padding: 0;
         }
-        li{
+
+        li {
             list-style-type: none;
             background-color: beige;
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 5px;
-            input{
+
+            label {
+                letter-spacing: 0.5px;
+                font-family: sans-serif;
+                font-size: 18px;
+
+            }
+
+            .delete {
+                background-color: red;
+            }
+
+            .edit {
+                background-color: darkcyan;
+            }
+
+            input {
                 display: none;
             }
         }
+
         .editMode {
-            input{
-                display: block;
+            input {
+                display: inline-block;
             }
-            label{
+
+            label {
                 display: none;
             }
         }
-    
+
     }
 }
